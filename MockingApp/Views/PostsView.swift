@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PostsView.swift
 //  MockingApp
 //
 //  Created by Tiago Henriques on 31/12/2022.
@@ -24,7 +24,7 @@ struct PostsView: View {
                         openPostUrl(post: post)
                     }
                 }
-                .navigationBarTitle("Latests Articles")
+                .navigationBarTitle("Latest Articles")
                 
                 if let error = viewModel.error {
                     ErrorView(title: error.localizedDescription)
@@ -40,7 +40,7 @@ struct PostsView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct PostsView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             PostsView(viewModel: PostsViewModel(

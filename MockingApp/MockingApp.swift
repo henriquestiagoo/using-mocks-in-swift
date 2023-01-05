@@ -1,5 +1,5 @@
 //
-//  MockingAppApp.swift
+//  MockingApp.swift
 //  MockingApp
 //
 //  Created by Tiago Henriques on 31/12/2022.
