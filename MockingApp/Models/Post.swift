@@ -13,5 +13,5 @@ struct Post: Codable, Equatable {
     let summary: String
     let publishedAt: String
     let postUrl: String
-    let githubUrl: String
+    var githubUrl: String?
 }
